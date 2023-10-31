@@ -5,10 +5,11 @@ RUN dnf install java-17-openjdk -y
 
 ARG workdir=/binaryConverter
 
+RUN mkdir -p /tmp/sharedArchiveReadable/systemOne
+
 WORKDIR ${workdir}
 
 COPY /*.jar ${workdir}/
-
 COPY /*.properties ${workdir}/properties/
 
 CMD java -cp "properties/:/binaryConverter/*" \
