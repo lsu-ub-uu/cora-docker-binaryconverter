@@ -16,4 +16,4 @@ CMD java -cp "properties/:/binaryConverter/*" \
 se.uu.ub.cora.binaryconverter.BinaryConverter \
 ${coraBaseUrl} ${apptokenVerifierUrl} ${userId} ${appToken} \
 ${rabbitMqHostName} ${rabbitMqPort} ${rabbitMqVirtualHost} ${rabbitMqQueueName} \
-${fedoraOcflHome} 
+${fedoraOcflHome} ${fileStorageBasePath}
