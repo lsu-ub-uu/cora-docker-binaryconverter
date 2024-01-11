@@ -1,5 +1,6 @@
 FROM  fedora:39
 
+RUN dnf clean all
 RUN dnf install ImageMagick -y
 RUN dnf install openjpeg2-tools -y
 RUN dnf install java-17-openjdk -y
