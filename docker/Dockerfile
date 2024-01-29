@@ -8,6 +8,8 @@ RUN dnf install java-17-openjdk -y
 ARG workdir=/binaryConverter
 
 RUN mkdir -p /tmp/sharedArchiveReadable/systemOne
+RUN mkdir -p /tmp/sharedArchiveReadable/alvin
+RUN mkdir -p /tmp/sharedArchiveReadable/diva
 
 WORKDIR ${workdir}
 
