@@ -31,10 +31,10 @@
 	<name>Cora docker for Binary Converter</name>
 
 	<properties>
-		<binaryconverter.version>1.0-SNAPSHOT</binaryconverter.version>
+		<binaryconverter.version>1.1.0</binaryconverter.version>
 		
 		<outputDirectory>${project.build.directory}/docker2</outputDirectory>
-		<exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
+		<exec-maven-plugin.version>3.2.0</exec-maven-plugin.version>
 	</properties>
 
 	<scm>
