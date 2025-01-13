@@ -1,9 +1,9 @@
-FROM  fedora:39
+FROM fedora:41
 
 RUN dnf clean all
 RUN dnf install ImageMagick -y
 RUN dnf install openjpeg2-tools -y
-RUN dnf install java-17-openjdk -y
+RUN dnf install java-23-openjdk -y
 
 ARG workdir=/binaryConverter
 
