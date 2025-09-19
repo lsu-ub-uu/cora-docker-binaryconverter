@@ -31,7 +31,7 @@
 	<name>Cora docker for Binary Converter</name>
 
 	<properties>
-		<binaryconverter.version>1.12-SNAPSHOT</binaryconverter.version>
+		<binaryconverter.version>1.12.0</binaryconverter.version>
 		<!-- Override property so docker-build profile activates in this module -->
 		<docker.build.activate>true</docker.build.activate>
 	</properties>
