@@ -16,7 +16,7 @@ WORKDIR ${workdir}
 COPY /*.jar ${workdir}/
 COPY /*.properties ${workdir}/properties/
 
-CMD java -cp "properties/:/binaryConverter/*" \
+CMD exec java -cp "properties/:/binaryConverter/*" \
 se.uu.ub.cora.binaryconverter.BinaryConverter \
 ${coraBaseUrl} ${apptokenVerifierUrl} ${loginId} ${appToken} \
 ${rabbitMqHostName} ${rabbitMqPort} ${rabbitMqVirtualHost} ${rabbitMqQueueName} \
