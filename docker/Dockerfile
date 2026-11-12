@@ -1,4 +1,4 @@
-FROM fedora:44
+FROM fedora:45
 
 RUN dnf clean all
 RUN dnf install ImageMagick -y
